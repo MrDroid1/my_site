@@ -52,7 +52,6 @@
 }
 .rectangle {
   border: solid 2px #33F03F;
-  background-color: #292929;
   height: 494px;
   width: 564px;
   position: absolute;
@@ -61,6 +60,7 @@
 }
 .main .text {
   border: solid 3px #33F03F;
+  background-color: #333333;
   margin: 1em;
   position: absolute;
   top: 30%;
