@@ -66,19 +66,19 @@
 <div class="container h-full mx-auto flex justify-center my-2 text-2xl text-center">
 	<div class="w-5/6">
 		<div class="grid grid-cols-3 gap-2 justify-items-stretch">
-			<div class="card p-4 variant-soft-surface">
+			<div class="card p-4 variant-soft-surface col-span-3 xl:col-span-1 md:col-span-1">
 				<div>Много обо мне</div>
 				<button type="button" class="btn variant-soft-primary mt-4">
 					<a href="/about">Перейти</a>
 				</button>
 			</div>
-			<div class="card p-4 variant-soft-surface">
+			<div class="card p-4 variant-soft-surface col-span-3 xl:col-span-1 md:col-span-1">
 				<div>Опыт работы</div>
 				<button type="button" class="btn variant-soft-primary mt-4">
 					<a href="/experience">Перейти</a>
 				</button>
 			</div>
-			<div class="card p-4 variant-soft-surface">
+			<div class="card p-4 variant-soft-surface col-span-3 xl:col-span-1 md:col-span-1">
 				<div>FAQ</div>
 				<button type="button" class="btn variant-soft-primary mt-4 self-end">
 					<a href="/faq">Перейти</a>
