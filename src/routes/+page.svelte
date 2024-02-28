@@ -1,4 +1,4 @@
-<div class="h-full mx-auto flex justify-center items-center mt-40">
+<div class="h-full mx-auto flex justify-center items-center mt-10">
 	<div class="space-y-3">
 		<h1 class="h1 text-center">
 			Привет
@@ -11,7 +11,7 @@
 		</h1>
 	</div>
 </div>
-<div class="container h-full mx-auto flex justify-center items-center mt-20">
+<div class="container h-full mx-auto flex justify-center items-center mt-10">
 	<div class="w-1/2 card p-6 text-2xl variant-soft-surface">
 		Всем говорю, что я
 		<span class="font-bold bg-gradient-to-br from-purple-500 to-blue-500 bg-clip-text text-transparent box-decoration-clone">
@@ -60,9 +60,9 @@
 		</span>
 	</div>
 </div>
-<div class="container h-full mx-auto flex justify-center mt-2 text-2xl text-center">
+<div class="container h-full mx-auto flex justify-center my-2 text-2xl text-center">
 	<div class="w-1/2">
-		<div class="grid grid-cols-3 gap-2 justify-items-stretch">
+		<div class="grid grid-cols-2 gap-2 justify-items-stretch">
 			<div class="card p-4 variant-soft-surface">
 				<div>Много обо мне</div>
 				<button type="button" class="btn variant-soft-primary mt-4">
@@ -70,14 +70,14 @@
 				</button>
 			</div>
 			<div class="card p-4 variant-soft-surface">
-				<div>Мой опыт работы</div>
+				<div>Опыт работы</div>
 				<button type="button" class="btn variant-soft-primary mt-4">
 					<a href="/experience">Перейти</a>
 				</button>
 			</div>
 			<div class="card p-4 variant-soft-surface">
 				<div>FAQ</div>
-				<button type="button" class="btn variant-soft-primary mt-4">
+				<button type="button" class="btn variant-soft-primary mt-4 self-end">
 					<a href="/faq">Перейти</a>
 				</button>
 			</div>

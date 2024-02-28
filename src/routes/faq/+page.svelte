@@ -52,7 +52,7 @@
     },
   ];
 </script>
-<div class="container w-1/2 h-full mx-auto flex justify-center items-center mt-52 text-center">
+<div class="container w-1/2 h-full mx-auto flex justify-center items-center mt-10 text-center">
   <div class="w-full">
 		<h1 class="h1">
 			Частые задаваемые 
