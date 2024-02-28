@@ -159,7 +159,7 @@
     <span>Назад</span>
   </a>
 </div>
-<div class="container w-2/5 h-full mx-auto flex justify-center items-center mt-10 grid grid-cols-1 gap-4">
+<div class="container w-5/6 h-full mx-auto flex justify-center items-center mt-10 grid grid-cols-1 gap-4">
 	{#each experience as exp}
     <div class="w-full h-full card p-6 variant-soft-surface text-center">
       <header class="card-header">

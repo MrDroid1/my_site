@@ -12,7 +12,7 @@
 	</div>
 </div>
 <div class="container h-full mx-auto flex justify-center items-center mt-10">
-	<div class="w-1/2 card p-6 text-2xl variant-soft-surface">
+	<div class="card w-5/6 p-6 text-2xl variant-soft-surface">
 		Всем говорю, что я
 		<span class="font-bold bg-gradient-to-br from-purple-500 to-blue-500 bg-clip-text text-transparent box-decoration-clone">
 			lead software engineer.
@@ -21,7 +21,7 @@
 	</div>
 </div>
 <div class="container h-full mx-auto flex justify-center items-center mt-2">
-	<div class="w-1/2 card p-6 text-2xl variant-soft-surface">
+	<div class="card w-5/6 p-6 text-2xl variant-soft-surface">
 		<span class="font-bold bg-gradient-to-br from-red-500 to-amber-500 bg-clip-text text-transparent box-decoration-clone">
 			Не хочу
 		</span>
@@ -33,7 +33,7 @@
 	</div>
 </div>
 <div class="container h-full mx-auto flex justify-center items-center mt-2">
-	<div class="w-1/2 card p-6 text-2xl variant-soft-surface">
+	<div class="card w-5/6 p-6 text-2xl variant-soft-surface">
 		Аки рыба в воде и пиво в кружке обитаю на
 		<span class="font-bold bg-gradient-to-br from-fuchsia-500 to-rose-500 bg-clip-text text-transparent box-decoration-clone">
 			backend
@@ -53,7 +53,7 @@
 	</div>
 </div>
 <div class="container h-full mx-auto flex justify-center items-center mt-2">
-	<div class="w-1/2 card p-6 text-2xl variant-soft-surface">
+	<div class="card w-5/6 p-6 text-2xl variant-soft-surface">
 		Основной стек - 
 		<span class="font-bold bg-gradient-to-br from-green-500 to-yellow-500 bg-clip-text text-transparent box-decoration-clone">
 			TypeScript, Node.js, MongoDB, Zoom, Пиво
@@ -61,8 +61,8 @@
 	</div>
 </div>
 <div class="container h-full mx-auto flex justify-center my-2 text-2xl text-center">
-	<div class="w-1/2">
-		<div class="grid grid-cols-2 gap-2 justify-items-stretch">
+	<div class="w-5/6">
+		<div class="grid grid-cols-3 gap-2 justify-items-stretch">
 			<div class="card p-4 variant-soft-surface">
 				<div>Много обо мне</div>
 				<button type="button" class="btn variant-soft-primary mt-4">

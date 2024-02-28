@@ -52,7 +52,7 @@
     },
   ];
 </script>
-<div class="container w-1/2 h-full mx-auto flex justify-center items-center mt-10 text-center">
+<div class="container w-5/6 h-full mx-auto flex justify-center items-center mt-10 text-center">
   <div class="w-full">
 		<h1 class="h1">
 			Частые задаваемые 
@@ -63,7 +63,13 @@
 		</h1>
 	</div>
 </div>
-<div class="container text-xl w-2/5 h-full mx-auto flex justify-center items-center mt-20">
+<div class="w-64 p-6 text-3xl font-bold mx-auto flex justify-center items-center mt-10">
+  <a href="/" class="btn variant-soft-surface">
+    <span><i class="fa-solid fa-caret-left mr-4"></i></span>
+    <span>Назад</span>
+  </a>
+</div>
+<div class="container text-xl w-5/6 h-full mx-auto flex justify-center items-center mt-10">
 	<Accordion autocollapse>
     {#each questions as { question, answer } }
       <AccordionItem class="rounded-lg variant-soft-surface">
