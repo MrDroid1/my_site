@@ -1,5 +1,6 @@
 <script>
 	import { Accordion, AccordionItem } from "@skeletonlabs/skeleton";
+	import BackButton from "../../components/BackButton.svelte";
 
   const questions = [
     {
@@ -63,12 +64,7 @@
 		</h1>
 	</div>
 </div>
-<div class="w-64 p-6 text-3xl font-bold mx-auto flex justify-center items-center mt-10">
-  <a href="/" class="btn variant-soft-surface">
-    <span><i class="fa-solid fa-caret-left mr-4"></i></span>
-    <span>Назад</span>
-  </a>
-</div>
+<BackButton />
 <div class="container text-xl w-5/6 h-full mx-auto flex justify-center items-center mt-10">
 	<Accordion autocollapse>
     {#each questions as { question, answer } }
@@ -82,9 +78,4 @@
     {/each}
   </Accordion>
 </div>
-<div class="w-64 p-6 text-3xl font-bold mx-auto flex justify-center items-center mt-10">
-  <a href="/" class="btn variant-soft-surface">
-    <span><i class="fa-solid fa-caret-left mr-4"></i></span>
-    <span>Назад</span>
-  </a>
-</div>
+<BackButton />

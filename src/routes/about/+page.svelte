@@ -1,6 +1,7 @@
 <script>
 
 	import { ProgressRadial } from "@skeletonlabs/skeleton";
+  import BackButton from '../../components/BackButton.svelte';
 
 </script>
 <div class="container w-5/6 h-full mx-auto flex justify-center items-center mt-10 text-center">
@@ -14,12 +15,7 @@
 		</h1>
 	</div>
 </div>
-<div class="w-64 p-6 text-3xl font-bold mx-auto flex justify-center items-center mt-10">
-  <a href="/" class="btn variant-soft-surface">
-    <span><i class="fa-solid fa-caret-left mr-4"></i></span>
-    <span>Назад</span>
-  </a>
-</div>
+<BackButton />
 <div class="container text-center w-5/6 h-full mx-auto flex justify-center items-center mt-10 grid grid-cols-6 gap-4">
 	<div class="w-full h-full card p-6 variant-soft-surface col-span-2">
 		<p class="text-5xl font-bold">
@@ -150,9 +146,4 @@
     </span>
 	</div>
 </div>
-<div class="w-64 p-6 text-3xl font-bold mx-auto flex justify-center items-center mt-10">
-  <a href="/" class="btn variant-soft-surface">
-    <span><i class="fa-solid fa-caret-left mr-4"></i></span>
-    <span>Назад</span>
-  </a>
-</div>
+<BackButton />

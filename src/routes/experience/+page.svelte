@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Tab, TabGroup } from "@skeletonlabs/skeleton";
+	import BackButton from "../../components/BackButton.svelte";
 
   const startYear = 2016;
   const sumOfExp = new Date().getFullYear() - startYear;
@@ -153,12 +154,7 @@
 		</h1>
 	</div>
 </div>
-<div class="w-64 p-6 text-3xl font-bold mx-auto flex justify-center items-center mt-10">
-  <a href="/" class="btn variant-soft-surface">
-    <span><i class="fa-solid fa-caret-left mr-4"></i></span>
-    <span>Назад</span>
-  </a>
-</div>
+<BackButton />
 <div class="container w-5/6 h-full mx-auto flex justify-center items-center mt-10 grid grid-cols-1 gap-4">
 	{#each experience as exp}
     <div class="w-full h-full card p-6 variant-soft-surface text-center">
@@ -211,9 +207,4 @@
     </div>
   {/each}
 </div>
-<div class="w-64 p-6 text-3xl font-bold mx-auto flex justify-center items-center mt-10">
-  <a href="/" class="btn variant-soft-surface">
-    <span><i class="fa-solid fa-caret-left mr-4"></i></span>
-    <span>Назад</span>
-  </a>
-</div>
+<BackButton />
