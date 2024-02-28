@@ -1,6 +1,7 @@
 <script>
 	import { Accordion, AccordionItem } from "@skeletonlabs/skeleton";
 	import BackButton from "../../components/BackButton.svelte";
+	import MainGreeting from "../../components/MainGreeting.svelte";
 
   const questions = [
     {
@@ -53,17 +54,15 @@
     },
   ];
 </script>
-<div class="container w-5/6 h-full mx-auto flex justify-center items-center mt-10 text-center">
-  <div class="w-full">
-		<h1 class="h1">
-			Частые задаваемые 
-			<span class="bg-gradient-to-br from-green-500 to-emerald-500 bg-clip-text text-transparent box-decoration-clone">
-				вопросы
-        <i class="fa-solid fa-fire-extinguisher"></i>
-			</span>
-		</h1>
-	</div>
-</div>
+<MainGreeting>
+  <h1 class="h1">
+    Частые задаваемые 
+    <span class="bg-gradient-to-br from-green-500 to-emerald-500 bg-clip-text text-transparent box-decoration-clone">
+      вопросы
+      <i class="fa-solid fa-fire-extinguisher"></i>
+    </span>
+  </h1>
+</MainGreeting>
 <BackButton />
 <div class="container text-xl w-5/6 h-full mx-auto flex justify-center items-center mt-10">
 	<Accordion autocollapse>

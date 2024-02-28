@@ -2,19 +2,18 @@
 
 	import { ProgressRadial } from "@skeletonlabs/skeleton";
   import BackButton from '../../components/BackButton.svelte';
+	import MainGreeting from "../../components/MainGreeting.svelte";
 
 </script>
-<div class="container w-5/6 h-full mx-auto flex justify-center items-center mt-10 text-center">
-  <div class="w-full">
-		<h1 class="h1">
-			Много обо 
-			<span class="bg-gradient-to-br from-red-500 to-yellow-500 bg-clip-text text-transparent box-decoration-clone">
-				мне
-        <i class="fa-solid fa-hat-wizard"></i>
-			</span>
-		</h1>
-	</div>
-</div>
+<MainGreeting>
+  <h1 class="h1">
+    Много обо 
+    <span class="bg-gradient-to-br from-red-500 to-yellow-500 bg-clip-text text-transparent box-decoration-clone">
+      мне
+      <i class="fa-solid fa-hat-wizard"></i>
+    </span>
+  </h1>
+</MainGreeting>
 <BackButton />
 <div class="container text-center w-5/6 h-full mx-auto flex justify-center items-center mt-10 grid grid-cols-6 gap-4">
 	<div class="w-full h-full card p-6 variant-soft-surface col-span-2">

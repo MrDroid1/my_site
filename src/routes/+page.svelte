@@ -1,4 +1,7 @@
-<div class="h-full mx-auto flex justify-center items-center mt-10">
+<script>
+	import MainGreeting from '../components/MainGreeting.svelte';
+</script>
+<MainGreeting>
 	<div class="space-y-3">
 		<h1 class="h1 text-center">
 			Привет
@@ -10,7 +13,7 @@
 			</span>
 		</h1>
 	</div>
-</div>
+</MainGreeting>
 <div class="container h-full mx-auto flex justify-center items-center mt-10">
 	<div class="card w-5/6 p-6 text-2xl variant-soft-surface">
 		Всем говорю, что я
